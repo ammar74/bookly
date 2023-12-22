@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 abstract class Styles {
   static const textStyle14 = TextStyle(
-    color: Colors.black54,
+    color: Colors.white54,
     fontSize: 14,
     fontWeight: FontWeight.normal,
   );

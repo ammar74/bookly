@@ -12,7 +12,7 @@ class HorizonatBookslListView extends StatelessWidget {
           scrollDirection: Axis.horizontal,
           itemBuilder: (context, index) {
             return const Padding(
-              padding: EdgeInsets.only(right: 8.0),
+              padding: EdgeInsets.only(right: 16.0),
               child: HorizontaListItem(),
             );
           }),

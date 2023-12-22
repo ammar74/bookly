@@ -18,12 +18,15 @@ class HomeViewBody extends StatelessWidget {
           children: [
             CustomAppBar(image: AssetsData.logo, icon: Icons.search),
             HorizonatBookslListView(),
-            Padding(
-              padding: EdgeInsets.symmetric(vertical: 16.0),
-              child: Text(
-                'Best Sellers',
-                style: Styles.textStyle18,
-              ),
+            SizedBox(
+              height: 30,
+            ),
+            Text(
+              'Best Sellers',
+              style: Styles.textStyle18,
+            ),
+            SizedBox(
+              height: 20,
             ),
             BestSellerItem(),
           ],
