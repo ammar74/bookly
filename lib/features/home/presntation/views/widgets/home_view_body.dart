@@ -2,7 +2,7 @@ import 'package:bookly/core/utils/assets.dart';
 import 'package:bookly/core/utils/styles.dart';
 import 'package:bookly/features/home/presntation/views/widgets/best_seller_list_view.dart';
 import 'package:bookly/features/home/presntation/views/widgets/custom_app_bar.dart';
-import 'package:bookly/features/home/presntation/views/widgets/horizontal_books_list_view.dart';
+import 'package:bookly/features/home/presntation/views/widgets/featured_books_list_view.dart';
 import 'package:flutter/material.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -19,7 +19,7 @@ class HomeViewBody extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 CustomAppBar(image: AssetsData.logo, icon: Icons.search),
-                HorizonatBookslListView(),
+                FeaturedBookslListView(),
                 SizedBox(
                   height: 30,
                 ),

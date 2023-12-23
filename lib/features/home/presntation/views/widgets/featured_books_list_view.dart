@@ -1,8 +1,8 @@
-import 'package:bookly/features/home/presntation/views/widgets/horizonal_list_item.dart';
+import 'package:bookly/features/home/presntation/views/widgets/custom_book_image.dart';
 import 'package:flutter/material.dart';
 
-class HorizonatBookslListView extends StatelessWidget {
-  const HorizonatBookslListView({super.key});
+class FeaturedBookslListView extends StatelessWidget {
+  const FeaturedBookslListView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class HorizonatBookslListView extends StatelessWidget {
           itemBuilder: (context, index) {
             return const Padding(
               padding: EdgeInsets.only(right: 16.0),
-              child: HorizontaListItem(),
+              child: CustomBookImage(),
             );
           }),
     );

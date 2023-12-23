@@ -64,7 +64,7 @@ class BestSellerItem extends StatelessWidget {
                         style: Styles.textStyle20,
                       ),
                       SizedBox(
-                        width: 20,
+                        width: 48,
                       ),
                       BookRating(),
                     ],
