@@ -1,7 +1,7 @@
 import 'package:bookly/core/utils/app_router.dart';
 import 'package:bookly/core/utils/assets.dart';
 import 'package:bookly/core/utils/styles.dart';
-import 'package:bookly/features/home/presntation/views/widgets/best_seller_list_view.dart';
+import 'package:bookly/features/home/presntation/views/widgets/newest_books_list_view.dart';
 import 'package:bookly/features/home/presntation/views/widgets/custom_app_bar.dart';
 import 'package:bookly/features/home/presntation/views/widgets/featured_books_list_view.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +31,7 @@ class HomeViewBody extends StatelessWidget {
                   height: 30,
                 ),
                 const Text(
-                  'Best Sellers',
+                  'Newest Books',
                   style: Styles.textStyle18,
                 ),
                 const SizedBox(
@@ -41,7 +41,7 @@ class HomeViewBody extends StatelessWidget {
             ),
           ),
           const SliverToBoxAdapter(
-            child: BestSellerListView(),
+            child: NewestBooksListView(),
           )
         ],
       ),
