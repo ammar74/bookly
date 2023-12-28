@@ -15,7 +15,6 @@ class SearchResultsListView extends StatelessWidget {
         if (state is SearchBooksSuccess) {
           return ListView.builder(
               padding: EdgeInsets.zero,
-              shrinkWrap: true,
               itemCount: state.books.length,
               itemBuilder: (context, index) {
                 return Padding(
