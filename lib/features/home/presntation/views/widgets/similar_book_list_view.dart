@@ -16,6 +16,7 @@ class SimilarBooksListView extends StatelessWidget {
         builder: (context, state) {
           if (state is SimilarBooksSuccess) {
             return ListView.builder(
+                physics: const BouncingScrollPhysics(),
                 scrollDirection: Axis.horizontal,
                 itemCount: state.books.length,
                 itemBuilder: (context, index) {
